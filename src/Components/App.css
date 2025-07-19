@@ -1,0 +1,109 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #14181b;
+    z-index: 1030;
+}
+
+body {
+    padding-left: 250px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding-left: 0;
+    }
+}
+.header .social-links a {
+  width: 40px;
+  height: 40px;
+  background-color: #343a40;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.header .sidebar li {
+    /* background-color: rgb(68, 66, 66, 0.5); */
+    margin-top: 30px;
+}
+.header .sidebar li .bi {
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+    background-color: #212529;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar .nav-link:hover {
+    background-color: #343a40;
+    border-left: 3px solid #0dcaf0;
+}
+.sidebar .nav-link.active {
+    color: #0dcaf0 !important;
+    border-left: 4px solid #0dcaf0;
+    background-color: #1e1e1e;
+}
+#topNavbar .nav-link.active {
+    color: #0dcaf0 !important;
+    border-bottom: 3px solid #0dcaf0;
+    border-radius: 10px;
+}
+
+.social-links a:hover {
+    background-color: #0dcaf0;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer .social_icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.footer .social_icon li {
+  list-style: none;
+}
+.footer .social_icon li a {
+  font-size: 2em;
+  color: #ccc;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.footer .social_icon li a:hover {
+  transform: translateY(-15px);
+  color: blue;
+}
+.footer p {
+  color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-family: cursive;
+}
