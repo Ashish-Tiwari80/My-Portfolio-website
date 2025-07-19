@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8178a52d.css",
+    "main.js": "/static/js/main.b3ce7769.js",
+    "static/media/creative-flat-lay-photo-workspace-desk.jpg": "/static/media/creative-flat-lay-photo-workspace-desk.460e08558069f05510cb.jpg",
+    "static/media/Profile_pic.jpg": "/static/media/Profile_pic.f472e7e8d1cb00126d39.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/Tic tac toe game.png": "/static/media/Tic tac toe game.74531f3df03c2ea4b824.png",
+    "static/media/Keeper app 1 - Copy.png": "/static/media/Keeper app 1 - Copy.626efe16194d1dff2ae8.png",
+    "static/media/to do list.png": "/static/media/to do list.60a00c5ac366c585757e.png",
+    "index.html": "/index.html",
+    "main.8178a52d.css.map": "/static/css/main.8178a52d.css.map",
+    "main.b3ce7769.js.map": "/static/js/main.b3ce7769.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8178a52d.css",
+    "static/js/main.b3ce7769.js"
+  ]
+}
