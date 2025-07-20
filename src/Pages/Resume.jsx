@@ -1,6 +1,6 @@
-import project1 from "../assets/images/Tic tac toe game.png";
-import project2 from "../assets/images/to do list.png";
-import project3 from "../assets/images/Keeper app 1 - Copy.png";
+import project1 from "../assets/images/to do list.png";
+import project2 from "../assets/images/Keeper app 1 - Copy.png";
+import project3 from "../assets/images/weather app.png";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Footer from "../Components/footer";
@@ -45,20 +45,6 @@ export default function Resume() {
         <Card className="h-auto">
           <Card.Img variant="top" src={project1} alt="..." />
           <Card.Body>
-            <Card.Title>Tic-Tac-Toe</Card.Title>
-            <Card.Text>
-              A minimalist web-based implementation of the classic Tic-Tac-Toe game, basic game logic, and responsive design principles. 
-              Built using HTML, CSS, and JavaScript, the project features an intuitive playerX-vs-playerO interface, win/draw detection, 
-              and instant game reset functionality.
-            </Card.Text>
-            <Button variant="primary" href="https://github.com/Ashish-Tiwari80/Tic-Tac-Toe-game.git">View Project</Button>
-          </Card.Body>
-        </Card>
-      </div>
-      <div className="col">
-        <Card className="h-auto">
-          <Card.Img variant="top" src={project2} alt="..." />
-          <Card.Body>
             <Card.Title>To-Do-App</Card.Title>
             <Card.Text>
               A sleek and responsive task management tool built with React.js, designed to streamline daily productivity. 
@@ -71,7 +57,7 @@ export default function Resume() {
       </div>
       <div className="col">
         <Card className="h-auto">
-          <Card.Img variant="top" src={project3} alt="..." />
+          <Card.Img variant="top" src={project2} alt="..." />
           <Card.Body>
             <Card.Title>Keeper App</Card.Title>
             <Card.Text>
@@ -80,6 +66,20 @@ export default function Resume() {
               Notes persist across sessions using local storage. Designed with a vibrant, responsive layout for seamless experience.
             </Card.Text>
             <Button variant="primary" href="https://github.com/Ashish-Tiwari80/Keeper-App.git">View Project</Button>
+          </Card.Body>
+        </Card>
+      </div>
+      <div className="col">
+        <Card className="h-auto">
+          <Card.Img variant="top" src={project3} alt="..." />
+          <Card.Body>
+            <Card.Title>Weather App</Card.Title>
+            <Card.Text>
+              My weather app delivers real-time forecasts using a powerful weather API and a sleek interface built with Node.js, Express.js, 
+              and EJS templates. Users can check current conditions and temperature with just a city name. It's designed for speed, clarity, 
+              and responsiveness across devices. Whether you're chasing the sun or dodging the rain, this app has your back.
+            </Card.Text>
+            <Button variant="primary" href="https://github.com/Ashish-Tiwari80/Tic-Tac-Toe-game.git">View Project</Button>
           </Card.Body>
         </Card>
       </div>
